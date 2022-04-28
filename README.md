@@ -1,12 +1,14 @@
 ## Sumário
 * [General information](#General-information)
+* [Warning](#Warning)
 * [Technologies](#Technologies)
 * [Setup](#Setup)
 
 ## General information
 This project is a template made in vtex io which the user can search, log in to the platform, go to the cart. The header, home page and footer is fully responsive for desktops, tablets and mobiles.
 
-warning: Product page and search page was not developed yet.
+## Warning
+Product page and search page was not developed yet.
 
 ## Technologies
 Project is created with:
