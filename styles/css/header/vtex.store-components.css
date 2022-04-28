@@ -1,0 +1,41 @@
+:global(.vtex-button) {
+    margin-left: 10px;
+}
+
+.logoContainer {
+    padding: 0;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    padding: 0;
+}
+
+.searchBarContainer {
+    max-width: 100% !important;
+}
+
+.searchBarInnerContainer--search-bar-desktop {
+    display: none;
+} 
+
+
+@media(min-width: 768px){
+    .searchBarContainer {
+        max-width: 350px !important;
+    }
+    .searchBarInnerContainer--search-bar-desktop {
+        display: block;
+    } 
+}
+
+@media(min-width: 1200px){
+    
+}
+
+@media(min-width: 1366px){
+    
+}
+
+@media(min-width: 1920px){
+    
+}

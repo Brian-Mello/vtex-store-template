@@ -1,0 +1,38 @@
+.flexRowContent--license-and-plataforms-container {
+    justify-content: space-between;
+}
+
+.flexRow--license-and-plataforms-container,
+.flexRow--menu-and-payment-methods-container {
+    max-width: 1180px;
+    width: 100%;
+}
+
+.flexRow--menu-and-payment-methods-container,
+.flexRow--license-and-plataforms-container {
+    padding: 20px;
+}
+
+.flexRowContent--license-and-plataforms-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.flexRowContent--platform-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+}
+
+.flexColChild--platform-content {
+    margin: 0 0 5px;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--license-and-plataforms-container {
+        flex-direction: row;
+    }
+    .flexRow--menu-and-payment-methods-container,
+    .flexRow--license-and-plataforms-container {
+        padding: 20px 0;
+    }
+}

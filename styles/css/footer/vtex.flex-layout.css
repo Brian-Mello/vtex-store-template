@@ -1,0 +1,18 @@
+.flexRow--footer-container {
+    background-color: #E5E5EA;
+}
+
+.flexRow--footer-container :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+}
+
+.flexColChild--footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol--footer-content :global(.vtex-flex-layout-0-x-flexColChild--footer-content):last-child {
+    background-color: #222222;
+}

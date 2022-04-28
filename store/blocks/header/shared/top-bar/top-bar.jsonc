@@ -1,0 +1,10 @@
+{
+    "rich-text#top-bar": {
+        "title": "Top bar text",
+        "props": {
+            "text": "Bem vindo a nossa loja",
+            "textPosition": "CENTER",
+            "blockClass": "top-bar"
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.flexRow--sub-header,
+.flexRow--principal-header,
+.flexRowContent--principal-header {
+    background-color: #363148;
+}
+
+.flexRowContent--sub-header,
+.flexRowContent--principal-header {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.flexRowContent--principal-header {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.flexRowContent--principal-header,
+.flexRowContent--sub-header {
+    padding: 0 15px;
+}
+
+.flexRowContent--login-favorite-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--principal-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRow--mobile-main-header-container :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--sub-header {
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexColChild--departament-all-itens :global(.vtex-menu-2-x-styledLink--departament-nav-item) {
+    font-weight: 600;
+}
+
+.flexColChild--departament-all-itens :global(.vtex-menu-2-x-styledLink--category-nav) {
+    font-size: 12px;
+}
+
+.flexCol--departament-all-itens {
+    align-items: center;
+}
+
+.flexColChild--departament-all-itens :global(.vtex-menu-2-x-menuItem--category-nav),
+.flexColChild--departament-all-itens :global(.vtex-menu-2-x-menuItem--departament-nav-item) {
+    height: 30px !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--categories-menu-mobile) {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-menu-mobile-acordion) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .flexRowContent--principal-header,
+    .flexRowContent--sub-header {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flexRowContent--principal-header,
+    .flexRowContent--sub-header {
+        padding: 0;
+    }
+    .flexRow--all-categories-item {
+        width: 100%;
+    }
+    .flexRowContent--all-categories-item {
+        justify-content: space-evenly;
+    }
+    .flexRowContent--all-categories-item :global(.vtex-menu-2-x-styledLinkContent--departament-nav-item) {
+        color: #212121;
+        font-size: 18px;
+    }
+    .flexRowContent--all-categories-item :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 1366px) {}
+
+@media (min-width: 1920px) {}

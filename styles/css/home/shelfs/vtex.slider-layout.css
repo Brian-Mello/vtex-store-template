@@ -1,0 +1,15 @@
+.sliderLeftArrow--slider-layout-without-banner {
+    left: -40px;
+}
+
+.sliderRightArrow--slider-layout-without-banner {
+    right: -40px;
+}
+
+.sliderLeftArrow--slider-layout-with-banner {
+    left: -30px;
+}
+
+.sliderRightArrow--slider-layout-with-banner {
+    right: -30px;
+}

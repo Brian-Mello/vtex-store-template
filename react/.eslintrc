@@ -1,0 +1,10 @@
+{
+  "extends": "vtex-react/io",
+  "rules": {
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-restricted-syntax": "off",
+    "func-names": "off"
+  }
+}

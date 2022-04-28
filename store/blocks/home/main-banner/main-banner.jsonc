@@ -1,0 +1,33 @@
+{
+    "list-context.image-list#main": {
+        "title": "Banner Principal",
+        "children": [
+            "slider-layout#main-banner"
+        ],
+        "props": {
+            "height": 550,
+            "images": [
+                {
+                    "image": "https://dummyimage.com/1366x550/eeeeee/000000",
+                    "mobileImage": "https://dummyimage.com/410x550/eeeeee/000000",
+                    "description": "mobile"
+                },
+                {
+                    "image": "https://dummyimage.com/1366x550/eeeeee/000000",
+                    "mobileImage": "https://dummyimage.com/410x550/eeeeee/000000",
+                    "description": "mobile"
+                },
+                {
+                    "image": "https://dummyimage.com/1366x550/eeeeee/000000",
+                    "mobileImage": "https://dummyimage.com/410x550/eeeeee/000000",
+                    "description": "mobile"
+                },
+                {
+                    "image": "https://dummyimage.com/1366x550/eeeeee/000000",
+                    "mobileImage": "https://dummyimage.com/410x550/eeeeee/000000",
+                    "description": "mobile"
+                }
+            ]
+        }
+    }
+}

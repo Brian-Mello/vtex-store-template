@@ -1,0 +1,17 @@
+.flexRowContent--container-price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.flexRowContent--shelf-product-actions {
+    justify-content: space-between;
+    position: relative;
+    padding: 5px;
+}
+
+:global(.vtex-button) {
+    margin: 0 !important;
+}

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#footer-container": {
+        "title": "Rodapé",
+        "props": {
+            "blockClass": "footer-container"
+        },
+        "children": [
+            "flex-layout.col#footer-content"
+        ]
+    },
+    "flex-layout.col#footer-content": {
+        "title": "Conteúdo do Rodapé",
+        "props": {
+            "blockClass": "footer-content"
+        },
+        "children": [
+            "flex-layout.row#menu-and-payment-methods-container",
+            "flex-layout.row#copyright-and-plataforms-container"
+        ]
+    }
+}

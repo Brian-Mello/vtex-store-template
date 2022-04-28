@@ -1,0 +1,12 @@
+{
+  "store.home": {
+    "blocks": [
+      "first-visit-modal",
+      "list-context.image-list#main",
+      "__fold__",
+      "flex-layout.row#best-sellers-container",
+      "flex-layout.row#category-banners-container",
+      "flex-layout.row#highlighted-container"
+    ]
+  }
+}

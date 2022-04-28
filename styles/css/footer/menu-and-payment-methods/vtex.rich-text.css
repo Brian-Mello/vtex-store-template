@@ -1,0 +1,11 @@
+.paragraph--menu-title {
+    font-weight: bold;
+    font-size: .88rem;
+    margin: 0 0 10px;
+}
+
+@media (min-width: 1024px) {
+    .paragraph--menu-title {
+        font-size: 1.3rem;
+    }
+}

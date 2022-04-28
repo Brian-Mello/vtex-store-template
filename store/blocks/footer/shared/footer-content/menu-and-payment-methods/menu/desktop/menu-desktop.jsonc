@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#all-menu-categories-desktop-footer": {
+        "title": "menu desktop",
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "blockClass": "all-menu-categories-desktop"
+        },
+        "children": [
+            "flex-layout.col#item-categorie1-footer",
+            "flex-layout.col#item-categorie2-footer",
+            "flex-layout.col#item-categorie3-footer"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+.link--shelf-title-without-banner,
+.link--shelf-title-with-banner {
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.45rem;
+    font-weight: bold;
+    text-align: center;
+    color: #0e0b0e;
+    margin: 20px 0;
+}

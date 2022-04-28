@@ -1,0 +1,13 @@
+.paragraph--copyright,
+.paragraph--platform {
+    text-align: center;
+    font-size: .80rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1024px) {
+    .paragraph--copyright {
+        text-align: start;
+    }
+}

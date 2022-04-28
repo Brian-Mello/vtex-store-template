@@ -1,0 +1,8 @@
+.imageElement--category-banner,
+.imageElementLink--category-banner {
+    width: 100% !important;
+}
+
+.imageElement--category-banner {
+    height: fit-content !important;
+}

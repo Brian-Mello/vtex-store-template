@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#plataform-container": {
+        "title": "Plataforma de desenvolvimento",
+        "props": {
+            "preserveLayoutMobile": "true",
+            "horizontalAlign": "center",
+            "blockClass": "platform-container"
+        },
+        "children": [
+            "flex-layout.col#platform-content"
+        ]
+    },
+
+    "flex-layout.col#platform-content": {
+        "title": "Conteúdo",
+        "children": [
+            "rich-text#platform-title",
+            "image#platform-image"
+        ],
+        "props": {
+            "blockClass": [
+                "platform-content"
+            ],
+            "width": "25%"
+        }
+    },
+    "rich-text#platform-title": {
+        "title": "Title",
+        "props": {
+            "blockClass": [
+                "platform"
+            ],
+            "text": "Plataforma",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#platform-image": {
+        "title": "Imagem",
+        "props": {
+            "blockClass": "development-image",
+            "maxHeight": 25,
+            "src": "assets/icons/white-logo-vtex.svg",
+            "link": {
+                "url": "https://vtex.com/br-pt/"
+            }
+        }
+    }
+}

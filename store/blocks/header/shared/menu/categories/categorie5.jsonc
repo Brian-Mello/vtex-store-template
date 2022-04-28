@@ -1,0 +1,81 @@
+{
+    "menu-item#item-categoria5": {
+        "title": "Categoria 5",
+        "props": {
+            "blockClass": "departament-nav-item",
+            "id": "menu-item-categoria5",
+            "type": "custom",
+            "iconId": null,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "text": "Categoria 5"
+            }
+        },
+        "blocks": [
+        ]
+    },
+
+    "flex-layout.col#item-categorie5": {
+        "title": "Categorie 5 sub categories",
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": "departament-all-itens"
+        },
+        "children": [
+            "menu-item#item-categoria5",
+            "flex-layout.col#subCategorie-all-itens"
+        ]
+    },
+
+    "flex-layout.row#categorie5-menu-mobile": {
+        "title": "Header - Categoria5",
+        "props": {
+            "blockClass": "container-menu-mobile-acordion"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-categorie5"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-categorie5": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-mobile-acordion-categorie"
+        },
+        "children": [
+            "menu-item#acordion-menu-categorie5"
+        ]
+    },
+    "menu-item#acordion-menu-categorie5": {
+        "props": {
+            "id": "acordion-menu-categorie",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-util-info",
+            "itemProps": {
+                "type": "internal",
+                "href": "/find-shop/d",
+                "noFollow": true,
+                "text": "Categoria 5"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#acordion-menu-categorie5"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#acordion-menu-categorie5": {
+        "children": [
+            "vtex.menu@2.x:menu#acordion-menu-categorie5"
+        ]
+    },
+    "vtex.menu@2.x:menu#acordion-menu-categorie5": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.col#subCategorie-all-itens"
+        ]
+    }
+}

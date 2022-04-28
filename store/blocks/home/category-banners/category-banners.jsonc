@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#category-banners-container": {
+        "title": "Banners de Categoria",
+        "props": {
+            "blockClass": "category-banners",
+            "preventHorizontalStretch": false
+        },
+        "children": [
+            "image#categorie-banner-1",
+            "image#categorie-banner-2",
+            "image#categorie-banner-3"
+        ]
+    },
+    "image#categorie-banner-1": {
+        "title": "Banner 1",
+        "props": {
+            "blockClass": ["category-banner"],
+            "src": "https://dummyimage.com/370x500/000/fff",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#categorie-banner-2": {
+        "title": "Banner 2",
+        "props": {
+            "blockClass": ["category-banner"],
+            "src": "https://dummyimage.com/370x500/000/fff",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#categorie-banner-3": {
+        "title": "Banner 3",
+        "props": {
+            "blockClass": ["category-banner"],
+            "src": "https://dummyimage.com/370x500/000/fff",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

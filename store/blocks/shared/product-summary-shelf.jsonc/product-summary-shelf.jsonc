@@ -1,0 +1,71 @@
+{
+    // Product card 
+    "product-summary.shelf#default": {
+        "children": [
+            "stack-layout#image-and-actions",
+            "product-summary-name",
+            "flex-layout.row#price-container",
+            "unavailable-product-message"
+        ]
+    },
+    "stack-layout#image-and-actions": {
+        "title": "Itens no topo do card",
+        "children": [
+            "product-summary-image",
+            "flex-layout.row#shelf-actions-and-price-savings"
+        ]
+    },
+    "product-summary-image": {
+        "title": "Imagem",
+        "props": {
+            "showBadge": false,
+            "aspectRatio": "1:1",
+            "maxHeight": 300,
+            "hoverImageLabel": "imageback",
+            "hoverImage": {
+                "criteria": "label",
+                "label": "imageback",
+                "labelMatchCriteria": "contains"
+            }
+        }
+    },
+    "flex-layout.row#shelf-actions-and-price-savings": {
+        "title": "wishlist e desconto",
+        "props": {
+            "blockClass": "shelf-product-actions",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "product-price-savings#search-summaryPercentage",
+            "add-to-list-btn"
+        ]
+    },
+    "product-price-savings#search-summaryPercentage": {
+        "title": "Label de descontos",
+        "props": {
+            "message": "{savingsPercentage}",
+            "blockClass": "summaryPercentage"
+        }
+    },
+    "flex-layout.row#price-container": {
+        "title": "Container de preços",
+        "props": {
+            "blockClass": "container-price",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "product-list-price",
+            "product-selling-price"
+        ]
+    },
+    "unavailable-product-message": {
+        "children": [
+            "add-to-cart-button"
+        ]
+    },
+    "add-to-cart-button": {
+        "props": {
+            "blockClass": "unavailable-button"
+        }
+    }
+}

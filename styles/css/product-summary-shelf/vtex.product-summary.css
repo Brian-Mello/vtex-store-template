@@ -1,0 +1,40 @@
+:global(.vtex-product-summary-2-x-clearLink) {
+    padding: 10px;
+}
+
+:global(.vtex-product-summary-2-x-element) {
+    position: relative;
+    padding: 0 0 10px;
+    transition: all .3s ease;
+}
+
+:global(.vtex-product-summary-2-x-element):hover {
+    box-shadow: 0 1px 5px #0e0b0e;
+}
+
+.brandName,
+.priceContainer {
+    padding: 0 5px;
+}
+
+.brandName {
+    font-weight: 900;
+    font-size: 14px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+
+.priceContainer {
+    align-items: flex-start;
+    font-weight: medium;
+    padding: 2px 0;
+}
+
+.nameWrapper {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-align: center;
+    min-height: 37px;
+}

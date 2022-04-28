@@ -1,0 +1,47 @@
+{
+    "menu-item#item-all-categories": {
+        "title": "Todas categorias",
+        "props": {
+            "blockClass": "departament-nav__item_all",
+            "id": "menu-item-all-categories",
+            "type": "custom",
+            "iconId": null,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "text": "Todas as Categorias"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#all-categories"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#all-categories": {
+        "props": {
+            "blockClass": "departament-nav__submenu",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#all-categories-item"
+        ]
+    },
+
+    "flex-layout.row#all-categories-item": {
+        "title": "Categorias",
+        "props": {
+            "horizontalAlign": "left",
+            "fullWidth": true,
+            "blockClass": "all-categories-item"
+        },
+        "children": [
+            "flex-layout.col#item-categorie1",
+            "flex-layout.col#item-categorie2",
+            "flex-layout.col#item-categorie3",
+            "flex-layout.col#item-categorie4",
+            "flex-layout.col#item-categorie5",
+            "flex-layout.col#item-categorie6"
+        ]
+    }
+}

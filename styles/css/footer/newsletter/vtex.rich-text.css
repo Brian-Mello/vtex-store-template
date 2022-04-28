@@ -1,0 +1,20 @@
+.container--newsletterTitle,
+.container--newsletterDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph--newsletterTitle {
+    margin-bottom: 15px;
+    font-size: 1.250rem;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.paragraph--newsletterDescription {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}

@@ -1,0 +1,104 @@
+.profileIcon,
+.label {
+    color: #FFFFFF;
+}
+
+.contentFormVisible {
+    width: 100%;
+    padding: 0;
+}
+
+.formTitle {
+    display: none;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 0;
+}
+
+.container :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.loginOptionsContainer :global(.vtex-button) {
+    margin: 0;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+    background-color: #D3D3D3;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+    background-color: #757575;
+}
+
+.googleOptionBtn :global(.vtex-button) {
+    background-color: #EA4335;
+}
+
+.facebookOptionBtn :global(.vtex-button) {
+    background-color: #4267B2;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button),
+.googleOptionBtn :global(.vtex-button),
+.facebookOptionBtn :global(.vtex-button) {
+    height: 40px;
+    border-radius: 0;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button),
+.googleOptionBtn :global(.vtex-button),
+.facebookOptionBtn :global(.vtex-button) {
+    color: #FFFFFF;
+}
+
+.facebookOptionBtn :global(.vtex-button__label),
+.googleOptionBtn :global(.vtex-button__label) {
+    padding: 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.facebookOptionBtn :global(.vtex-button) svg,
+.googleOptionBtn :global(.vtex-button) svg {
+    border-right: 1px solid #FFFFFF;
+    padding: 0 10px;
+    height: 90%;
+}
+
+.facebookOptionBtn :global(.vtex-button) path {
+    fill: #FFFFFF;
+}
+
+.optionsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.optionsList :global(.vtex-login-2-x-optionsListItem):first-child {
+    order: 2;
+}
+
+.optionsList :global(.vtex-login-2-x-optionsListItem):nth-child(2) {
+    order: 1;
+}
+
+.optionsList :global(.vtex-login-2-x-optionsListItem):nth-child(3) {
+    order: 4;
+}
+
+.optionsList :global(.vtex-login-2-x-optionsListItem):nth-child(4) {
+    order: 3;
+}
+
+.optionsList :global(.vtex-login-2-x-optionsListItem):last-child {
+    order: 5;
+}

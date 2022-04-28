@@ -1,0 +1,39 @@
+.triggerContainer--modal-trigger {
+    display: block;
+}
+
+.paper--search-bar-modal {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.backdrop--search-bar-modal {
+    background-color: transparent;
+}
+
+.container--search-bar-modal {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media(min-width: 768px){
+    .triggerContainer--modal-trigger {
+        display: none;
+    }
+}
+
+@media(min-width: 1200px){
+
+}
+
+@media(min-width: 1366px){
+    
+}
+
+@media(min-width: 1920px){
+    
+}

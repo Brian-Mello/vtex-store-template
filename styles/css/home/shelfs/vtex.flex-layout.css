@@ -1,0 +1,52 @@
+.flexColChild--shelf-without-banner-content,
+.flexColChild--highlighted-shelf-content {
+    width: 100%;
+    display: flex;
+}
+
+.flexCol--shelf-without-banner-content,
+.flexCol--highlighted-shelf-content {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* highlighted */
+
+.flexRow--highlighted-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .flexRowContent--highlighted-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexRowContent--highlighted-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--highlighted-container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .flexRowContent--highlighted-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+        width: 41.1% !important;
+    }
+    .flexRowContent--highlighted-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+        width: 53% !important;
+        margin: 0 0 0 3rem;
+    }
+    .flexCol--highlighted-shelf-column :global(.vtex-stack-layout-0-x-stackContainer),
+    .flexRowContent--highlighted-container :global(.vtex-stack-layout-0-x-stackContainer) {
+        box-shadow: 1px 0 5px #0000000D;
+    }
+}
+
+
+/* end highlighted */

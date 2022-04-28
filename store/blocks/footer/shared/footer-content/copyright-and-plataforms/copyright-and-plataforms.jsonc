@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#copyright-and-plataforms-container": {
+        "title": "Direitos autorais e plataforma",
+        "props": {
+            "blockClass": "license-and-plataforms-container",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#footer-copyright",
+            "flex-layout.row#plataform-container"
+        ]
+    }
+}

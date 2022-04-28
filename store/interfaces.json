@@ -1,0 +1,9 @@
+{
+    "first-visit-modal": {
+        "component": "FirstVisitModal"
+    },
+    "unavailable-product-message": {
+        "component": "UnavailableProduct",
+        "composition": "children"
+    }
+}

@@ -1,0 +1,37 @@
+.link--wishlist-link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link--wishlist-link::before {
+    content: "";
+    background: url('assets/icons/favorite-icon.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.label--wishlist-link {
+    color: #FFFFFF;
+    display: none;
+}
+
+@media(min-width: 768px) {}
+
+@media(min-width: 1200px) {
+    .label--wishlist-link {
+        display: block;
+    }
+}
+
+@media(min-width: 1366px) {}
+
+@media(min-width: 1920px) {}

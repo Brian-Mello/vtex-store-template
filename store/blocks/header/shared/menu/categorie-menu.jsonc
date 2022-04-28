@@ -1,0 +1,20 @@
+{
+    "vtex.menu@2.x:menu#categorie-menu": {
+      "title": "Menu",
+      "props": {
+        "blockClass": "categorie-nav",
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "drawer",
+        "menu-item#item-all-categories",
+        "menu-item#item-categoria1",
+        "menu-item#item-categoria2",
+        "menu-item#item-categoria3",
+        "menu-item#item-categoria4",
+        "menu-item#item-categoria5",
+        "menu-item#item-categoria6"
+      ]
+    }
+  }
+  

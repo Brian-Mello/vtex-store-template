@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#menu-container-footer": {
+        "title": "Menu do Rodapé",
+        "props": {
+            "blockClass": "menu-and-methods-container",
+            "preventHorizontalStretch": false
+        },
+        "children": [
+            "responsive-layout.desktop#footer-menu",
+            "responsive-layout.tablet#footer-menu",
+            "responsive-layout.phone#footer-menu"
+        ]
+    },
+    
+    "responsive-layout.desktop#footer-menu": {
+        "title": "Menu - Desktop",
+        "children": [
+            "flex-layout.row#all-menu-categories-desktop-footer"
+        ]
+    },
+    "responsive-layout.tablet#footer-menu": {
+        "title": "Menu - Tablet",
+        "children": [
+            "flex-layout.row#all-menu-categories-mobile-footer"
+        ]
+    },
+    "responsive-layout.phone#footer-menu": {
+        "title": "Menu - Mobile",
+        "children": [
+            "flex-layout.row#all-menu-categories-mobile-footer"
+        ]
+    }
+}

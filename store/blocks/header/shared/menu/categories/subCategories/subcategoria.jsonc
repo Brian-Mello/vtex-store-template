@@ -1,0 +1,33 @@
+{
+    "flex-layout.col#subCategorie-all-itens": {
+        "title": "Sub categories",
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": "departament-all-itens"
+        },
+        "children": [
+            "menu-item#sub-categorie",
+            "menu-item#sub-categorie",
+            "menu-item#sub-categorie",
+            "menu-item#sub-categorie",
+            "menu-item#sub-categorie",
+            "menu-item#sub-categorie"
+        ]
+    },
+    "menu-item#sub-categorie": {
+        "props": {
+            "blockClass": "category-nav",
+            "id": "menu-item-subcategory",
+            "type": "custom",
+            "iconId": null,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "text": "SubCategoria"
+            }
+        },
+        "blocks": [
+        ]
+    }   
+}

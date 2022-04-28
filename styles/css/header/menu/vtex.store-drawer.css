@@ -1,0 +1,141 @@
+.openIconContainer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.openIconContainer::after {
+    content: "Todas categorias";
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.openIconContainer--search-bar-drawer::after {
+    content: "";
+    background: url("assets/icons/search-icon.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.openIconContainer--login-container-drawer::after {
+    content: "";
+    background: url("assets/icons/avatar-login-icon.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.openIconContainer--search-bar-drawer .menuIcon--search-bar-drawer,
+.openIconContainer--login-container-drawer .menuIcon--login-container-drawer {
+    display: none;
+}
+
+.menuIcon {
+    color: #FFFFFF;
+}
+
+.overlay {
+    background-color: #323232;
+}
+
+.drawer {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.closeIconContainer {
+    background-color: #363148;
+    justify-content: flex-end !important;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--menu-drawer-mobile) {
+    width: 100% !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-util-info) {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+}
+
+:global(.vtex-menu-2-x-menuItem--category-nav) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.menuItem--menu-util-info .overflow-hidden {
+    height: auto;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--category-nav) {
+    font-size: 14px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info) {
+    position: absolute;
+    right: 0;
+    display: flex;
+    content: "";
+    font-size: 0;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info--isClosed)::after {
+    content: "";
+    background: url("assets/icons/arrow-drop-right.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    transition: all .3s ease;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info--isOpen)::after {
+    content: "";
+    background: url("assets/icons/arrow-drop-right.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    transform: rotate(90deg);
+    transition: all .3s ease;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-util-info) {
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+    .drawer {
+        width: 85% !important;
+        max-width: 400px !important;
+    }
+    .openIconContainer--search-bar-drawer {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .openIconContainer {
+        display: none;
+    }
+}

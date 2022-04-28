@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#all-menu-categories-mobile-footer": {
+        "title": "menu mobile",
+        "props": {
+            "preventHorizontalStretch": false,
+            "fullWidth": true,
+            "blockClass": ["all-menu-categories-mobile", "footer"]
+        },
+        "children": [
+            "flex-layout.row#categorie1-menu-mobile-footer",
+            "flex-layout.row#categorie2-menu-mobile-footer",
+            "flex-layout.row#categorie3-menu-mobile-footer"
+        ]
+    }
+}

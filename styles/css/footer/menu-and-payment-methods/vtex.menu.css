@@ -1,0 +1,64 @@
+.styledLinkContent--menu-util-info-footer,
+.styledLinkContent--departament-nav-item-footer {
+    font-weight: bold;
+    font-size: .88rem;
+    margin: 0 0 10px;
+}
+
+.styledLinkContent--departament-nav-item-footer,
+.styledLinkContent--category-nav-footer {
+    margin: 0 0 10px;
+}
+
+.styledLinkContainer--menu-util-info-footer,
+.styledLinkContainer--departament-nav-item-footer,
+.styledLinkContainer--category-nav-footer {
+    margin: 0;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-util-info-footer) {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-weight: bold;
+    margin: 0;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info-footer) {
+    position: absolute;
+    right: 0;
+    display: flex;
+    content: "";
+    font-size: 0;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info-footer--isClosed)::after {
+    content: "";
+    background: url("assets/icons/arrow-drop-right.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    transition: all .3s ease;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-util-info-footer--isOpen)::after {
+    content: "";
+    background: url("assets/icons/arrow-drop-right.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    transform: rotate(90deg);
+    transition: all .3s ease;
+}
+
+@media (min-width: 1024px) {
+    .styledLinkContent--departament-nav-item-footer {
+        font-size: 1.3rem;
+    }
+}

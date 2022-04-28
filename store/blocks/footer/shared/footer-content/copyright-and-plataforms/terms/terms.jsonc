@@ -1,0 +1,11 @@
+{
+    "rich-text#footer-copyright": {
+        "title": "Termos",
+        "props": {
+            "text": "2021, BRIANMELLO LIMITED, TODOS OS DIREITOS RESERVADOS, BRIANMELLO LIMITED\n AV. MINHA CASA, S/N, Q11 G13,\n TERMINAL INTERMODAL - UTAH/CA - CEP 22740-333 CNPJ 22.222.222/222-22",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "copyright"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#best-sellers-container": {
+        "title": "Mais Vendidos",
+        "props": {
+            "blockClass": "shelf-without-banner-container"
+        },
+        "children": [
+            "flex-layout.col#best-sellers-content"
+        ]
+    },
+    "flex-layout.col#best-sellers-content": {
+        "title": "Conteúdo",
+        "props": {
+            "blockClass": "shelf-without-banner-content"
+        },
+        "children": [
+            "link#best-sellers-title",
+            "list-context.product-list#best-sellers-container"
+        ]
+    },
+    "link#best-sellers-title": {
+        "title": "Título",
+        "props": {
+            "href": "/",
+            "label": "Mais Vendidos",
+            "blockClass": "shelf-title-without-banner"
+        }
+    },
+    "list-context.product-list#best-sellers-container": {
+        "title": "Coleção",
+        "props": {
+            "orderBy": "OrderByReleaseDateDESC",
+            "collection": "179"
+        },
+        "blocks": [
+            "product-summary.shelf#default"
+        ],
+        "children": [
+            "slider-layout#slider-layout-without-banner"
+        ]
+    }
+}

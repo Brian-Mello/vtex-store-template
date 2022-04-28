@@ -1,0 +1,11 @@
+.wishlistIconContainer {
+    position: absolute;
+    right: 5px;
+    top: -3px;
+}
+
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}

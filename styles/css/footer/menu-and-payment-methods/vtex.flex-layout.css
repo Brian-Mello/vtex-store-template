@@ -1,0 +1,25 @@
+.flexRowContent--menu-and-payment-methods-container {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.flexRowContent--menu-and-payment-methods-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexCol--departament-all-itens-footer {
+    margin: 0 40px 0 0;
+}
+
+.flexRowContent--payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    .flexRowContent--menu-and-payment-methods-container {
+        flex-direction: row;
+    }
+}

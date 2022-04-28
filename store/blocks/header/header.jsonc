@@ -1,0 +1,35 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo-icon.svg",
+      "width": "40",
+      "blockClass": "logo"
+    }
+  },
+  "link#wishlist": {
+    "props": {
+      "href": "/account#/wishlist",
+      "label": "Seus Favoritos",
+      "blockClass": "wishlist-link"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

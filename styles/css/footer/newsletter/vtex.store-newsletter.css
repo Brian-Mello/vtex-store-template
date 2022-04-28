@@ -1,0 +1,96 @@
+.defaultSuccessMessage--newsletterForm {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #48494c;
+}
+
+.emailInputContainer {
+    height: fit-content;
+    width: 100%;
+    margin: 0.875rem 0;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #FFF;
+    background-color: #363148;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #FFF;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-bottom: 1px solid #FFF;
+    border-radius: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.formSubmitContainer {
+    width: 100%;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    border: 1px solid white;
+    background-color: #363148;
+    border-radius: 4px;
+    height: 2.5rem;
+    width: 100%;
+    font-size: 0.875rem;
+    text-transform: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.formSubmitContainer--newsletter-button {
+    margin-top: 10px;
+    width: 50% !important;
+}
+
+.nameInputContainer {
+    height: fit-content;
+    width: 100%;
+}
+
+.nameInputContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #FFF;
+    background-color: #363148;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #FFF;
+}
+
+.nameInputContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-bottom: 1px solid #FFF;
+    border-radius: 0;
+}
+
+.newsletterForm--newsletterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1026px) {
+    .formSubmitContainer--newsletter-button {
+        margin-top: 0;
+    }
+    .emailInputContainer,
+    .nameInputContainer {
+        position: relative;
+    }
+    .emailInputContainer :global(.vtex-input__error),
+    .nameInputContainer :global(.vtex-input__error) {
+        position: absolute;
+        bottom: -60%;
+        left: 0;
+    }
+}

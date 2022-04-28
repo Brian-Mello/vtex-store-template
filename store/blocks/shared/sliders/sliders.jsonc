@@ -1,0 +1,81 @@
+{
+    // Main banner home slider
+    "slider-layout#main-banner": {
+        "title": "Slider - banner principal",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "main-banner"
+        }
+    },
+    // Slider to category banners in home page
+    "slider-layout#slider-layout-category-banners": {
+        "title": "Slider - banners de categorias",
+        "props": {
+            "blockClass": "slider-layout-category-banner",
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "showPaginationDots": "always",
+            "infinite": true,
+            "showNavigationArrows": "always"
+        }
+    },
+    // Slider to shelfs without banners
+    "slider-layout#slider-layout-without-banner": {
+        "title": "Slider - prateleira sem banner ",
+        "props": {
+            "blockClass": "slider-layout-without-banner",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "always",
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        }
+    },
+    // Slider to shelfs with banner
+    "slider-layout#slider-layout-with-banner": {
+        "title": "Slider - prateleira com banner ",
+        "props": {
+            "blockClass": "slider-layout-with-banner",
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "always",
+            "infinite": true,
+            "showNavigationArrows": "never"
+        }
+    },
+    // Slider for wishlist
+    "slider-layout#slider-layout-wishlist": {
+        "title": "Slider - Wishlist ",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1000,
+                "tablet": 1000,
+                "phone": 1000
+            },
+            "showPaginationDots": "always",
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "fullWidth": true,
+            "blockClass": "wishlistslider"
+        }
+    }
+}

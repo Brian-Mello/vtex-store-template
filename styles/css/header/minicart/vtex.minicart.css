@@ -1,0 +1,86 @@
+:global(.vtex-store-icons-0-x-cartIcon) {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+
+.minicartContainer {
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.openIconContainer :global(.vtex-button__label) {
+    padding: 0;
+}
+
+.overlay {
+    background-color: #323232;
+}
+
+.drawer {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.closeIconContainer {
+    justify-content: flex-end !important;
+    background-color: #363148;
+    color: #FFFFFF;
+}
+
+.minicartTitle {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+.minicartTitle::before {
+    content: "";
+    background: url('assets/icons/cart-svg.svg');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: center;
+    margin-right: 10px;
+}
+
+@media(min-width: 768px) {
+    .drawer {
+        width: 85% !important;
+        max-width: 400px !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    .minicartSideBarContentWrapper {
+        z-index: 0;
+    }
+    .openIconContainer :global(.vtex-button) {
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .openIconContainer :global(.vtex-button):hover {
+        background-color: transparent;
+    }
+    .openIconContainer :global(.vtex-button)::after {
+        display: block;
+        font-family: "Nunito Sans";
+        content: "Carrinho";
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+}
+
+@media(min-width: 1366px) {}
+
+@media(min-width: 1920px) {}

@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#menu-and-payment-methods-container": {
+        "title": "Menu e Métodos de pagamento",
+        "props": {
+            "blockClass": "menu-and-payment-methods-container",
+            "preventHorizontalStretch": false
+        },
+        "children": [
+            "flex-layout.row#menu-container-footer",
+            "flex-layout.row#payment-methods-container"
+        ]
+    }
+}

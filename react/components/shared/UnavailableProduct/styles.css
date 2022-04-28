@@ -1,0 +1,19 @@
+.buttonContainer [class*="vtex-button"] {
+    display: none !important;
+}
+
+.buttonContainer [class*="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-disabled b--muted-5 c-on-disabled w-100"] {
+    display: block !important;
+    width: 100% !important;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonContainer [class*="vtex-button__label"] {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}

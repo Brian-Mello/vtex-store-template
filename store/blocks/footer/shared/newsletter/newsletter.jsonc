@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#newsletter-container": {
+        "title": "Newsletter",
+        "children": [
+            "rich-text#newsletter-title",
+            "rich-text#newsletter-description",
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "newsletterContainer"
+        }
+    },
+    "newsletter-form": {
+        "title": "Formulário",
+        "children": [
+            "flex-layout.row#containerInputs"
+        ],
+        "props": {
+            "blockClass": "newsletterForm"
+        }
+    },
+    "newsletter-input-name": {
+        "title": "Campo de nome",
+        "props": {
+            "placeholderText": "digite seu nome",
+            "blockClass": "newsletter-input"
+        }
+    },
+    "newsletter-input-email": {
+        "title": "Campo de E-mail",
+        "props": {
+            "placeholderText": "digite seu e-mail",
+            "blockClass": "newsletter-input"
+        }
+    },
+    "newsletter-submit": {
+        "title": "Botão de submit",
+        "props": {
+            "submitButtonLabel": "Enviar",
+            "blockClass": "newsletter-button"
+        }
+    },
+    "rich-text#newsletter-title": {
+        "title": "Título",
+        "props": {
+            "text": "**Novidades**",
+            "blockClass": "newsletterTitle"
+        }
+    },
+    "rich-text#newsletter-description": {
+        "title": "Descrição",
+        "props": {
+            "text": "Assine nossa newsletter para ficar por dentro de tudo que acontece por aqui!",
+            "blockClass": "newsletterDescription"
+        }
+    },
+    "flex-layout.row#containerInputs": {
+        "title": "Campos de texto e botão",
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "containerInputs"
+        }
+    }
+}

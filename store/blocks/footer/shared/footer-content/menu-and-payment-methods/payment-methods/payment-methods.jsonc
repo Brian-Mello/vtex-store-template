@@ -1,0 +1,108 @@
+{
+    "flex-layout.row#payment-methods-container": {
+        "title": "Formas de pagamento",
+        "props": {
+            "blockClass": "payment-methods-container"
+        },
+        "children": [
+            "flex-layout.col#payments-menu"
+        ]
+    },
+    "flex-layout.col#payments-menu": {
+        "title": "Conteúdo",
+        "props": {
+            "blockClass": "payment-methods-content"
+        },
+        "children": [
+            "rich-text#payments-title-desktop",
+            "flex-layout.row#payment-methods-content"
+        ]
+    },
+    "rich-text#payments-title-desktop": {
+        "title": "Titulo",
+        "props": {
+            "text": "Pagamentos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-title"
+        }
+    },
+    "flex-layout.row#payment-methods-content": {
+        "title": "Formas de pagamento",
+        "props": {
+            "blockClass": "payment-methods"
+        },
+        "children": [
+            "image#payment-method-1",
+            "image#payment-method-2",
+            "image#payment-method-3",
+            "image#payment-method-4",
+            "image#payment-method-5",
+            "image#payment-method-6",
+            "image#payment-method-7",
+            "image#payment-method-8"
+        ]
+    },
+    "image#payment-method-1": {
+        "title": "Método de Pagamento - 1",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-american-express.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-2": {
+        "title": "Método de Pagamento - 2",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-elo.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-3": {
+        "title": "Método de Pagamento - 3",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-mastercard.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-4": {
+        "title": "Método de Pagamento - 4",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-diners-club.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-5": {
+        "title": "Método de Pagamento - 5",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-hipercard.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-6": {
+        "title": "Método de Pagamento - 6",
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-visa.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-7": {
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-boleto.svg",
+            "maxHeight": 25
+        }
+    },
+    "image#payment-method-8": {
+        "props": {
+            "blockClass": "payment-methods-icon",
+            "src": "assets/icons/payment-methods/payment-pix.svg",
+            "maxHeight": 25
+        }
+    }
+}

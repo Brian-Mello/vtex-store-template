@@ -1,0 +1,15 @@
+.container--sticky-header {
+    background-color: #EEEEEE;
+}
+
+.wrapper--sticky-header {
+    font-family: "Nunito Sans";
+}
+
+@media(min-width: 768px) {}
+
+@media(min-width: 1200px) {}
+
+@media(min-width: 1366px) {}
+
+@media(min-width: 1920px) {}

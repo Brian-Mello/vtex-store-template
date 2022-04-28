@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#highlighted-container": {
+        "title": "Em Destaque",
+        "props": {
+            "blockClass": "highlighted-container",
+            "preventHorizontalStretch": false
+        },
+        "children": [
+            "list-context.image-list#highlighted",
+            "flex-layout.col#highlighted-shelf-content"
+        ]
+    },
+    "list-context.image-list#highlighted": {
+        "title": "Imagens",
+        "children": [
+            "slider-layout#slider-layout-with-banner"
+        ],
+        "props": {
+            "height": 546,
+            "blockClass": "highlighted-image",
+            "images": [
+                {
+                    "image": "https://dummyimage.com/430x550/000/fff",
+                    "mobileImage": "https://dummyimage.com/382x450/000/fff",
+                    "description": "highlighted images",
+                    "link": "/"
+                }
+            ]
+        }
+    },
+    "flex-layout.col#highlighted-shelf-content": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "highlighted-shelf-content"
+        },
+        "children": [
+            "link#highlighted-shelf-title-desktop",
+            "list-context.product-list#highlighted-container"
+        ]
+    },
+    "link#highlighted-shelf-title-desktop": {
+        "title": "Título",
+        "props": {
+            "href": "/",
+            "label": "Em Destaque",
+            "blockClass": "shelf-title-with-banner"
+        }
+    },
+    "list-context.product-list#highlighted-container": {
+        "title": "Coleção",
+        "props": {
+            "orderBy": "OrderByReleaseDateDESC",
+            "collection": "179"
+        },
+        "blocks": [
+            "product-summary.shelf#default"
+        ],
+        "children": [
+            "slider-layout#slider-layout-with-banner"
+        ]
+    }
+}

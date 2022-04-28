@@ -1,0 +1,16 @@
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background-color: #363148;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+    flex-direction: column;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    position: relative;
+    margin: 15px 0;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows) {
+    top: 40%
+}

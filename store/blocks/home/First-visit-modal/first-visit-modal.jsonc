@@ -1,0 +1,11 @@
+{
+    "first-visit-modal": {
+        "props": {
+            "imageDesktop": "assets/images/womanImageDesk.png",
+            "imageMobile": "assets/images/womanImageMob.png",
+            "title": "10% OFF NA PRIMEIRA COMPRA",
+            "text": "Faça parte do site e ganhe desconto na sua primeira compra, além de receber novidades e promoções exclusivas",
+            "buttonText": "Ganhar desconto"
+        }
+    }
+}
