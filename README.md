@@ -23,7 +23,7 @@ To run this project:
 first: clone the repository using git:
 
 ```
-$ git clone https://github.com/Brian-Mello/shoes-on.git
+$ git clone https://github.com/Brian-Mello/vtex-store-template.git
 ```
 
 second: access your workspace:
