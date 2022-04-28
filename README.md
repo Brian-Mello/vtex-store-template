@@ -29,7 +29,7 @@ $ git clone https://github.com/Brian-Mello/vtex-store-template.git
 second: access your workspace:
 
 ```
-$ cd ../vtex-store-template
+$ cd vtex-store-template
 $ vtex login (nome da sua loja)
 ```
 
