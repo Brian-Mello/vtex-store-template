@@ -10,6 +10,8 @@ This project is a template made in vtex io which the user can search, log in to 
 Project is created with:
 * vtex io
 * vtex apps  
+* React
+* CSS
 	
 ## Setup
 To run this project: 
